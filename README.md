@@ -30,3 +30,10 @@ You can pipe it to xclip to copy:
 ```
 ./rev 192.168.0.15 4444 3 | xclip -selection clipboard
 ```
+## Compile
+
+Compile it yourself or use pre-compiled binary from releases section.
+
+```
+gcc rev.c -o rev
+```
